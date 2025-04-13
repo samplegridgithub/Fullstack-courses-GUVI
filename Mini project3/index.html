@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Resume</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div id="container-main">
+      <section class="section--page" id="wrapper--hero">
+        <img src="./images/user.jpg" id="profile-pic" alt="" />
+        <div>
+          <h1 id="user-name">MARIMUTHU</h1>
+          <p id="bio">
+            Software Engineer <a href="">MNC</a> <a href="">Instructor</a>
+            <a href=""> Youtuber</a> <a href="">Engineer</a>
+          </p>
+          <p id="email">muthulsmjs7@gmail.com</p>
+        </div>
+      </section>
+
+      <section class="section--page">
+        <div id="socials--list">
+          <a href="" target="-blank">Youtube</a>
+          <a href="" target="-blank">Twitters</a>
+          <a href="" target="-blank">Linkedin</a>
+          <a href="" target="-blank">Github</a>
+          <a href="" target="-blank">Download Resume</a>
+        </div>
+      </section>
+  
+      <section class="section--page">
+        <h2>Skills & Qualifications</h2>
+        <ul id="qualifiaction--list">
+          <li><i class="fa-solid fa-square-check"></i> Fresher</li>
+          <li><i class="fa-solid fa-square-check"></i> I have leran the fullstack development course</li>
+          <li><i class="fa-solid fa-square-check"></i> technical writing & blogging</li>
+          <li><i class="fa-solid fa-square-check"></i> certifications of Guvi</li>
+        </ul>
+      </section>
+  
+      <section class="section--page">
+        <h2>Tech Stack Skills</h2>
+        <div id="wrapper--techstack_items">
+          <div class="card--techstack">
+            <span>Python, Javascript, NodeJs</span>
+          </div>
+          <div class="card--techstack">
+            <span>Django, Express, Flask, FastAPI</span>
+          </div>
+          <div class="card--techstack"><span> React, NextJs</span></div>
+          <div class="card--techstack">
+            <span>Postresql, MongoDB, MySQL</span>
+          </div>
+        </div>
+      </section>
+      <section id="work-history-wrapper" class="section--page">
+       <h2>Work History</h2>
+       <div class="card--work-history">
+        <strong>Developer</strong>
+        <p>10/2023-present</p>
+        <p><strong>[current-challeng]</strong> working to improve
+        developer adoption and experice across <a href="" target="-blank">Youtube channel</a>
+      ,<a href="" target="_blank">article</a></p>
+       </div>
+      </section>
+
+      <section class="section--page">
+      <h2>projects & Accomplishment</h2>
+
+      <div class="card-projects">
+        <a href="project1.html">Mini project1 of gym website of landing page </a>
+      </div>
+
+      <div class="card-projects">
+        <a href="project1.html">Mini project2 of E-commerce website of landing page </a>
+      </div>
+
+      <div class="card-projects">
+        <a href="project1.html">Mini project3 of Digital Resume </a>
+      </div>
+      </section>
+    </div>
+
+    
+
+    <div id="theme-switcher">
+      <div class="theme" id="theme-light" data-theme="light" aria-placeholder="light"></div>
+      <div class="theme" id="theme-dark" data-theme="dark"></div>
+    </div>
+    <script src="theme.js"></script>
+  </body>
+</html>
